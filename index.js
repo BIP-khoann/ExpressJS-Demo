@@ -15,7 +15,7 @@ const mongoStore = require('connect-mongo')(session);
 const apiProductRoute = require('./api/routes/product.route');
 const apiUserRoute = require('./api/routes/user.route');
 
-const port = 3000;
+const port = 4000;
 
 mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true });
 	
